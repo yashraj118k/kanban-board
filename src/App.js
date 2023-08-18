@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Board from "./Board"; // Import the Board component
+import Board from "./Board";
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Board /> {/* Use the Board component here */}
+        <Board /> {}
       </main>
     </div>
   );

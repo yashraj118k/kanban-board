@@ -1,4 +1,3 @@
-/* Board Container */
 .board {
     display: flex;
     flex-direction: column;
@@ -6,7 +5,6 @@
     padding: 20px;
   }
   
-  /* Grouping and Sorting Options */
   .options {
     display: flex;
     gap: 20px;
@@ -19,7 +17,6 @@
     gap: 10px;
   }
   
-  /* Card Group */
   .card-group {
     margin: 20px 0;
     padding: 10px;
@@ -34,7 +31,6 @@
     margin-bottom: 10px;
   }
   
-  /* Individual Card */
   .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -51,7 +47,30 @@
   
   .card-priority {
     font-weight: bold;
-    color: #ff5733; /* Adjust color based on priority */
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
+  .card-priority.priority-4 {
+    background-color: #ff5733; 
+  }
+  
+  .card-priority.priority-3 {
+    background-color: #ff9900; 
+  }
+  
+  .card-priority.priority-2 {
+    background-color: #f0ad4e; 
+  }
+  
+  .card-priority.priority-1 {
+    background-color: #5bc0de; 
+  }
+  
+  .card-priority.priority-0 {
+    background-color: #d3d3d3; 
   }
   
   .card-status {
@@ -63,7 +82,6 @@
     font-style: italic;
   }
   
-  /* Button Styles */
   .button {
     padding: 5px 10px;
     background-color: #007bff;
@@ -78,7 +96,6 @@
   }
   
 
-  /* Board Styles */
 .board {
   display: flex;
   flex-direction: column;
@@ -92,7 +109,6 @@
   margin-bottom: 20px;
 }
 
-/* Group By Buttons */
 .group-button {
   padding: 10px 20px;
   font-size: 14px;
